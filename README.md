@@ -8,8 +8,9 @@ it will cost you over the lifetime of your project and how it compares to Unreal
 If you have Visual Studio and .Net 7 installed, you only have to open UnityCalculator.sln and hit F5
 ![image](Images/Screenshot.png)
 
-# Comiling
-If you have Visual Studio and .Net 7 installed you can run "Run - Publish NativeAOT.bat" and it 
-will publish the app as a single file executable (approx. 40 MB) and copy to the root folder
-"UnityCalculator.exe"
+# Building as single file exe
+If you want to build it as a single file exe, you only need to run "Publish NativeAOT - Windows.bat".
 
+This bat file will download all NativeLib dependencies (hosted in my StaticFiles git repository) 
+and compilethe application as a NativeAOT one and place the SpeedReader.exe in the root folder.
+You'll now be able to run the app anywhere!
