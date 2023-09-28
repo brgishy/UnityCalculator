@@ -12,3 +12,4 @@ If you have Visual Studio and .Net 7 installed, you only have to open UnityCalcu
 If you have Visual Studio and .Net 7 installed you can run "Run - Publish NativeAOT.bat" and it 
 will publish the app as a single file executable (approx. 40 MB) and copy to the root folder
 "UnityCalculator.exe"
+
